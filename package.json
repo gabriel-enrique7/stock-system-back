@@ -1,0 +1,33 @@
+{
+  "name": "stock-system-back",
+  "version": "1.0.0",
+  "description": "Back-end of Stock System",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-enrique7/stock-system-back.git"
+  },
+  "author": "Gabriel Enrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-enrique7/stock-system-back/issues"
+  },
+  "homepage": "https://github.com/gabriel-enrique7/stock-system-back#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
